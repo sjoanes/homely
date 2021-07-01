@@ -1,7 +1,7 @@
 const AWS = require("aws-sdk");
 const express = require("express");
 const serverless = require("serverless-http");
-const AlgoliaClient = require("search/algolia")
+const AlgoliaClient = require("search")
 
 const app = express();
 
